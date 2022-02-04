@@ -1,0 +1,114 @@
+html {
+  font-size: 1rem;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.btn-cool-blues {
+  background: #2193b0;  
+  background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  
+  background: linear-gradient(to right, #6dd5ed, #2193b0); 
+  color: #fff;
+}
+
+
+.box1_bg {
+  background-image: url(../immage/banner.jpg);
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: hsla(0, 0%, 0%, 0.50);
+  padding: 2.5em;
+}
+
+
+h1, main p:first-child {
+  text-shadow: 2px 3px darkslategrey;
+}
+
+aside div h4:before {
+  font-family: FontAwesome;
+  content: "\F00C";
+  color: orangered;
+  border: 1px solid orangered;
+  border-radius: 100%;
+}
+
+.fa:before {
+  font-family: FontAwesome;
+  color: orangered;
+}
+
+footer i.fa:before {
+  color: black;
+  width: 25px;
+  height:25px;
+}
+
+
+.li:before {
+  font-family: FontAwesome;
+  content: "\F00C";
+}
+
+#social {
+  padding:10px;
+  border: 1px solid black;
+  border-radius: 100px;
+  margin: 0 0.2em;
+}
+
+
+h2,h3,h4,h5 {
+  color:navy ;
+}
+
+div.articles p, aside p, footer p {
+  color: grey;
+}
+
+
+main section:last-child {
+  background-color: navy;
+  text-align: center;
+  padding: 6em 0;
+}
+
+main section:last-child h3 {
+  color: white;
+}
+
+aside img {
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 1280px){
+html {
+  font-size: 1.1rem;
+}
+
+div.articles {
+  display: flex;
+}
+
+aside {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+aside div.colonna {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 25%;
+}
+
+footer div {
+  flex-basis: 30%;
+}
+}
